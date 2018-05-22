@@ -1,19 +1,21 @@
 package com.example.administrator.payforlife.Entity;
 
+import java.io.Serializable;
+
 /**
  * Created by Administrator on 2018/5/10.
  */
 
 public class Friend {
-    private String img;
+    private int img;
     private String friendname;
     private String friendtime;
 
-    public String getImg() {
+    public int getImg() {
         return img;
     }
 
-    public void setImg(String img) {
+    public void setImg(int img) {
         this.img = img;
     }
 
