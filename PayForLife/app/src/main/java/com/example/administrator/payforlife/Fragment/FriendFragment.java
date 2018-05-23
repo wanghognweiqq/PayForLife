@@ -1,6 +1,7 @@
 package com.example.administrator.payforlife.Fragment;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -11,6 +12,7 @@ import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.ListView;
 
+import com.example.administrator.payforlife.Activity.Setting_Activity;
 import com.example.administrator.payforlife.Adapter.FriendAdapter;
 import com.example.administrator.payforlife.Entity.Friend;
 import com.example.administrator.payforlife.R;
@@ -47,7 +49,8 @@ public class FriendFragment extends Fragment {
         btnSetting.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent = new Intent(context,Setting_Activity.class);
+                startActivity(intent);
             }
         });
         return view;
