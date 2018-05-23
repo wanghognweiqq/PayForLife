@@ -15,7 +15,8 @@
             android:background="#46A3FF"
             android:textColor="#ffffff"
             android:text="返回"
-            android:textSize="18sp"/>
+            android:textSize="18sp"
+            />
 
         <Button
             android:layout_columnSpan="1"
@@ -71,17 +72,16 @@
             android:text="99.99"
             android:textSize="92sp" />
 
-        <ImageButton
+        <ImageView
 
             android:layout_width="48dp"
             android:layout_height="40dp"
             android:layout_centerHorizontal="true"
             android:layout_columnSpan="1"
             android:background="#46A3FF"
-            android:id="@+id/ImageButton_chong"
             />
 
-        <TextView
+        <Button
             android:layout_width="88dp"
             android:layout_height="40dp"
             android:layout_columnSpan="1"
@@ -89,24 +89,25 @@
             android:text="充值"
             android:gravity="center"
             android:textColor="#ffffff"
-            android:textSize="18sp" />
+            android:textSize="18sp"
+            android:onClick="recharge"/>
 
         <View
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:layout_columnSpan="3"
             android:background="#46A3FF" />
-        <ImageButton
+        <ImageView
 
             android:layout_width="48dp"
             android:layout_height="40dp"
             android:layout_centerHorizontal="true"
             android:layout_columnSpan="1"
             android:background="#46A3FF"
-            android:id="@+id/ImageButton_ti"
+
             />
 
-        <TextView
+        <Button
             android:layout_width="88dp"
             android:layout_height="40dp"
             android:layout_columnSpan="1"
@@ -114,13 +115,16 @@
             android:text="提现"
             android:gravity="center"
             android:textColor="#ffffff"
-            android:textSize="18sp" />
+            android:textSize="18sp"
+            android:onClick="cash"
+            />
 
         <View
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:layout_columnSpan="3"
-            android:background="#46A3FF" />
+            android:background="#46A3FF"
+            />
 
         <View
             android:layout_width="match_parent"
@@ -136,7 +140,6 @@
             android:text="信用贷款|常见问题"
             android:textSize="14sp"/>
     </GridLayout>
-
 
 
 

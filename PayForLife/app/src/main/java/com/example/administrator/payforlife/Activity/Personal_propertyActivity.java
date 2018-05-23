@@ -5,6 +5,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.administrator.payforlife.R;
+
 public class Personal_propertyActivity extends AppCompatActivity {
 
     @Override
@@ -12,13 +14,14 @@ public class Personal_propertyActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_personal_property);
     }
-    public void tixian(View view){
+    public void cash(View view){
         Intent intent = new Intent();
-        intent.setClass(MainActivity.this,TixianActivity.class);
+        intent.setClass(Personal_propertyActivity.this,CashActivity.class);
         startActivity(intent);
     }
-    public void chongzhi(View view){
+    public void recharge(View view){
         Intent intent = new Intent();
-        intent.setClass(MainActivity.this,ChongzhiActivity.class);
+        intent.setClass(Personal_propertyActivity.this,RechargeActivity.class);
         startActivity(intent);
+    }
 }
