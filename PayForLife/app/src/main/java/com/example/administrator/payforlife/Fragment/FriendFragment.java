@@ -8,6 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
+import android.widget.Button;
 import android.widget.ListView;
 
 import com.example.administrator.payforlife.Adapter.FriendAdapter;
@@ -26,18 +27,26 @@ public class FriendFragment extends Fragment {
     private List<Friend> friends;
     private FriendAdapter friendAdapter;
     private ListView lvFriend;
+    private Button btnSetting;
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.friendlist,container,false);
         lvFriend = view.findViewById(R.id.lv_friend);
+        btnSetting = view.findViewById(R.id.btn_tosetting);
         friends = getdata();
         friendAdapter = new FriendAdapter(context, R.layout.friend_item,friends);
         lvFriend.setAdapter(friendAdapter);
         lvFriend.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+            }
+        });
+        btnSetting.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
 
             }
         });

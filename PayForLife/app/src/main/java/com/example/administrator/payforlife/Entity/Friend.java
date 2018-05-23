@@ -11,27 +11,27 @@ public class Friend {
     private String friendname;
     private String friendtime;
 
-    public int getImg() {
+public int getImg() {
         return img;
-    }
+        }
 
-    public void setImg(int img) {
+public void setImg(int img) {
         this.img = img;
-    }
+        }
 
-    public String getFriendname() {
+public String getFriendname() {
         return friendname;
-    }
+        }
 
-    public void setFriendname(String friendname) {
+public void setFriendname(String friendname) {
         this.friendname = friendname;
-    }
+        }
 
-    public String getFriendtime() {
+public String getFriendtime() {
         return friendtime;
-    }
+        }
 
-    public void setFriendtime(String friendtime) {
+public void setFriendtime(String friendtime) {
         this.friendtime = friendtime;
-    }
-}
+        }
+        }
