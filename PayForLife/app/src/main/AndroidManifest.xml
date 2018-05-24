@@ -17,6 +17,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".Activity.Setting_Activity"></activity>
+        <activity android:name=".Activity.Personal_propertyActivity" />
+        <activity android:name=".Activity.CashActivity" />
+        <activity android:name=".Activity.RechargeActivity"></activity>
     </application>
 
 </manifest>
