@@ -16,10 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Activity.Setting_Activity"></activity>
+        <activity android:name=".Activity.Setting_Activity" />
         <activity android:name=".Activity.Personal_propertyActivity" />
         <activity android:name=".Activity.CashActivity" />
-        <activity android:name=".Activity.RechargeActivity"></activity>
+        <activity android:name=".Activity.RechargeActivity" />
+        <activity android:name=".Activity.TurnMoneyActivity"></activity>
     </application>
 
 </manifest>
