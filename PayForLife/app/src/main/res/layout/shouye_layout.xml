@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.payforlife.Activity.MainActivity">
+
+    <TextView
+        android:background="#48d1cc"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:text="PAYFORLIFE"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_sqc"
+            android:layout_marginLeft="50sp"
+            android:layout_marginTop="30sp"
+            android:layout_width="0sp"
+            android:layout_height="100sp"
+            android:layout_weight="1"
+            android:text="扫一扫"
+
+            android:background="@drawable/shape"/>/>
+
+        <Button
+            android:id="@+id/btn_pay"
+            android:layout_marginLeft="50sp"
+            android:layout_marginRight="50sp"
+            android:layout_marginTop="30sp"
+            android:layout_width="0sp"
+            android:layout_height="100sp"
+            android:layout_weight="1"
+            android:text="付款"
+            android:background="@drawable/shape"/>/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_callPay"
+            android:layout_marginLeft="50sp"
+            android:layout_marginTop="30sp"
+            android:layout_width="0sp"
+            android:layout_height="100sp"
+            android:layout_weight="1"
+            android:text="话费充值"
+            android:background="@drawable/shape"/>/>
+
+        <Button
+            android:id="@+id/btn_balance"
+            android:layout_marginLeft="50sp"
+            android:layout_marginRight="50sp"
+            android:layout_marginTop="30sp"
+            android:layout_width="0sp"
+            android:layout_height="100sp"
+            android:layout_weight="1"
+            android:text="余额"
+            android:background="@drawable/shape"/>/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_turn"
+            android:layout_marginLeft="50sp"
+            android:layout_marginTop="30sp"
+            android:layout_width="0sp"
+            android:layout_height="100sp"
+            android:layout_weight="1"
+            android:text="转账"
+            android:background="@drawable/shape"
+            />
+
+        <Button
+            android:id="@+id/btn_myBill"
+            android:layout_marginLeft="50sp"
+            android:layout_marginRight="50sp"
+            android:layout_marginTop="30sp"
+            android:layout_width="0sp"
+            android:layout_height="100sp"
+            android:layout_weight="1"
+            android:text="我的账单"
+            android:background="@drawable/shape"/>/>
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
