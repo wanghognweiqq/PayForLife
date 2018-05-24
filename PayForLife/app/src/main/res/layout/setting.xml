@@ -9,7 +9,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <include layout="@layout/settingtitle" />
+        <include layout="@layout/setting_title" />
 
         <LinearLayout
             android:layout_width="match_parent"

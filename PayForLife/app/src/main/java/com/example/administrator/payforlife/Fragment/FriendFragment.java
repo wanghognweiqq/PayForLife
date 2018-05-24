@@ -12,6 +12,7 @@ import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.ListView;
 
+import com.example.administrator.payforlife.Activity.ChatActivity;
 import com.example.administrator.payforlife.Activity.Setting_Activity;
 import com.example.administrator.payforlife.Adapter.FriendAdapter;
 import com.example.administrator.payforlife.Entity.Friend;
@@ -44,6 +45,8 @@ public class FriendFragment extends Fragment {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
+                Intent intent = new Intent(context, ChatActivity.class);
+                startActivity(intent);
             }
         });
         btnSetting.setOnClickListener(new View.OnClickListener() {

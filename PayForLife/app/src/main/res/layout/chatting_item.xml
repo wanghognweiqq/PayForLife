@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:id="@+id/chatting_left_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left">
+
+        <ImageView
+            android:id="@+id/iv_chattinglf"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@mipmap/header_first"/>
+
+        <TextView
+            android:id="@+id/tv_chattinglf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="聊天信息" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/chatting_right_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right">
+
+        <TextView
+            android:id="@+id/tv_chattingrg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="聊天信息"/>
+
+        <ImageView
+            android:id="@+id/iv_chattingrg"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@mipmap/header_four"/>
+    </LinearLayout>
+
+</LinearLayout>
