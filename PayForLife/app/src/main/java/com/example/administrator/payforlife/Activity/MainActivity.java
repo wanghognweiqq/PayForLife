@@ -10,6 +10,8 @@ import android.widget.Button;
 import android.widget.FrameLayout;
 
 import com.example.administrator.payforlife.Fragment.FriendFragment;
+import com.example.administrator.payforlife.Fragment.MyFragment;
+import com.example.administrator.payforlife.Fragment.ShouyeFragment;
 import com.example.administrator.payforlife.R;
 
 public class MainActivity extends AppCompatActivity {
@@ -18,6 +20,8 @@ public class MainActivity extends AppCompatActivity {
     private Button btnMe;
     private android.support.v4.app.FragmentManager fragmentManager;
     private FriendFragment friendFragment;
+    private ShouyeFragment shouyeFragment;
+    private MyFragment myFragment;
     private Fragment currentFragment = new Fragment();
 
 
@@ -28,6 +32,9 @@ public class MainActivity extends AppCompatActivity {
         getview();
         setListener();
         friendFragment = new FriendFragment();
+        shouyeFragment=new ShouyeFragment();
+        myFragment=new MyFragment();
+        changeFragment(shouyeFragment);
     }
 
     private void changeFragment(Fragment fragment){
@@ -63,11 +70,13 @@ public class MainActivity extends AppCompatActivity {
         public void onClick(View v) {
             switch (v.getId()){
                 case R.id.btn_home:
+                    changeFragment(shouyeFragment);
                     break;
                 case R.id.btn_friend:
                     changeFragment(friendFragment);
                     break;
                 case R.id.btn_me:
+                    changeFragment(myFragment);
                     break;
             }
         }
