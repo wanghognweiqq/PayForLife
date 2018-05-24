@@ -69,6 +69,7 @@
         android:paddingLeft="20dp"
         android:text="总资产"/>
     <Button
+        android:id="@+id/btn_balance"
         android:layout_marginTop="8dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
