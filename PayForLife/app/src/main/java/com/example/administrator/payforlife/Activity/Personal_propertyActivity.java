@@ -29,4 +29,9 @@ public class Personal_propertyActivity extends AppCompatActivity {
         intent.setClass(Personal_propertyActivity.this,MainActivity.class);
         startActivity(intent);
     }
+    public void bill(View view){
+        Intent intent = new Intent();
+        intent.setClass(Personal_propertyActivity.this,BillActivity.class);
+        startActivity(intent);
+    }
 }
