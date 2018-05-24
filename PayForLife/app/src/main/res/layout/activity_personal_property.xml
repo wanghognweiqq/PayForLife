@@ -16,6 +16,7 @@
             android:textColor="#ffffff"
             android:text="返回"
             android:textSize="18sp"
+            android:onClick="gohome"
             />
 
         <Button
@@ -45,25 +46,30 @@
             android:textColor="#ffffff"
             android:text="明细"
             android:textSize="18sp"/>
-        <View
-            android:layout_columnSpan="1"
 
-            android:layout_width="20dp"
-            android:layout_height="40dp"
-            android:background="#46A3FF"
-            android:textColor="#ffffff"
-            android:text="111" />
+    <View
+        android:layout_width="match_parent"
 
-        <TextView
-            android:layout_columnSpan="5"
-            android:background="#46A3FF"
-            android:textColor="#ffffff"
-            android:layout_width="400dp"
-            android:layout_height="40dp"
-            android:text="账户余额（元）"
+        android:layout_height="40dp"
+        android:layout_columnSpan="1"
+        android:background="#46A3FF"
+        android:textColor="#ffffff" />
 
-            android:textSize="18sp"
-            />
+    <TextView
+        android:layout_width="284dp"
+        android:layout_height="40dp"
+        android:layout_columnSpan="3"
+        android:background="#46A3FF"
+        android:text="账户余额（元）"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+    <View
+        android:layout_width="match_parent"
+
+        android:layout_height="40dp"
+        android:layout_columnSpan="2"
+        android:background="#46A3FF"
+        android:textColor="#ffffff" />
         <TextView
             android:layout_columnSpan="5"
             android:layout_gravity="fill"
@@ -126,11 +132,11 @@
             android:background="#46A3FF"
             />
 
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="190dp"
-            android:layout_columnSpan="5"
-            android:background="#ffffff" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="245dp"
+        android:layout_columnSpan="5"
+        android:background="#ffffff" />
         <TextView
             android:layout_width="400dp"
             android:layout_height="40dp"
