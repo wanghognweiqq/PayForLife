@@ -23,6 +23,8 @@
         <activity android:name=".Activity.ChatActivity" />
         <activity android:name=".Activity.TurnMoneyActivity" />
         <activity android:name=".Activity.RegisterActivity"></activity>
+        <activity android:name=".Activity.BillActivity" />
+        <activity android:name=".Activity.PhonefareActivity"></activity>
     </application>
 
 </manifest>
