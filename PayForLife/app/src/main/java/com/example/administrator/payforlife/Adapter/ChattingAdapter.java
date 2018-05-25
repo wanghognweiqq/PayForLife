@@ -31,6 +31,12 @@ public class ChattingAdapter extends RecyclerView.Adapter<ChattingAdapter.ViewHo
 
         public ViewHolder(View view) {
             super(view);
+            leftLayout = view.findViewById(R.id.chatting_left_layout);
+            rightLayout = view.findViewById(R.id.chatting_right_layout);
+            tvleftchatting = view.findViewById(R.id.tv_chattinglf);
+            tvrightchatting = view.findViewById(R.id.tv_chattingrg);
+            ivleftchatting = view.findViewById(R.id.iv_chattinglf);
+            ivrightchatting = view.findViewById(R.id.iv_chattingrg);
         }
     }
 
@@ -46,8 +52,16 @@ public class ChattingAdapter extends RecyclerView.Adapter<ChattingAdapter.ViewHo
 
     @Override
     public void onBindViewHolder(ViewHolder viewHolder, int i) {
-
-
+        Chatmsg chatmsg = chatmsgList.get(i);
+        if (chatmsg.getType() == Chatmsg.YTPE_RECEIVED) {
+            viewHolder.leftLayout.setVisibility(View.VISIBLE);
+            viewHolder.rightLayout.setVisibility(View.GONE);
+            viewHolder.tvleftchatting.setText(chatmsg.getContent());
+        } else if (chatmsg.getType() == Chatmsg.TYPE_SENT){
+            viewHolder.leftLayout.setVisibility(View.GONE);
+            viewHolder.rightLayout.setVisibility(View.VISIBLE);
+            viewHolder.tvrightchatting.setText(chatmsg.getContent());
+        }
     }
 
     @Override

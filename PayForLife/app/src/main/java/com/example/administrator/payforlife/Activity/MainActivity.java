@@ -1,6 +1,7 @@
 package com.example.administrator.payforlife.Activity;
 
 
+import android.content.Intent;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
@@ -23,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
     private ShouyeFragment shouyeFragment;
     private MyFragment myFragment;
     private Fragment currentFragment = new Fragment();
+//    private Intent intent = new Intent();
 
 
     @Override
@@ -81,4 +83,14 @@ public class MainActivity extends AppCompatActivity {
             }
         }
     }
+//    public void handleIntent (Intent intent){
+//        final String fragment = intent.getStringExtra("fragment");
+//        setResult(1);
+//        finish();
+//        switch (fragment){
+//            case "friendfragment":
+//                changeFragment(friendFragment);
+//                break;
+//        }
+//    }
 }
