@@ -27,7 +27,7 @@ public class BillAdapter extends BaseAdapter {
 
 
 
-    Billdata[] data= new Billdata[]{new Billdata("徐仁贵", R.drawable.img1, "+12.35"), new Billdata("李云芳", R.drawable.img1, "-25.36")};
+    Billdata[] data={new Billdata("徐仁贵",R.drawable.img1,"+12.35"),new Billdata("李云芳", R.drawable.img1, "-25.36")};
 
 
     @Override
