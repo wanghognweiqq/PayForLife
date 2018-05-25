@@ -94,7 +94,8 @@
             android:layout_height="100sp"
             android:layout_weight="1"
             android:text="我的账单"
-            android:background="@drawable/shape"/>/>
+            android:background="@drawable/shape"
+            android:onClick="tobill"/>/>
     </LinearLayout>
 
 

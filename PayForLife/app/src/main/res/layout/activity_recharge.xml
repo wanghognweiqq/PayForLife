@@ -101,11 +101,11 @@
             android:textColor="#ffffff"
             />
 
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="240dp"
-            android:layout_columnSpan="3"
-            android:background="#F0F0F0" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="294dp"
+        android:layout_columnSpan="3"
+        android:background="#F0F0F0" />
         <TextView
             android:layout_width="400dp"
             android:layout_height="40dp"
@@ -114,7 +114,8 @@
             android:textColor="#46A3FF"
             android:gravity="center"
             android:text="大额充值|话费卡充值"
-            android:textSize="14sp"/>
+            android:textSize="14sp"
+            />
     </GridLayout>
 
 

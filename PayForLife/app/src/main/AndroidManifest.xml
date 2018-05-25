@@ -20,7 +20,9 @@
         <activity android:name=".Activity.Personal_propertyActivity" />
         <activity android:name=".Activity.CashActivity" />
         <activity android:name=".Activity.RechargeActivity" />
-        <activity android:name=".Activity.TurnMoneyActivity"></activity>
+        <activity android:name=".Activity.BillActivity" />
+        <activity android:name=".Activity.TurnMoneyActivity" />
+        <activity android:name=".Activity.PhonefareActivity"></activity>
     </application>
 
 </manifest>
