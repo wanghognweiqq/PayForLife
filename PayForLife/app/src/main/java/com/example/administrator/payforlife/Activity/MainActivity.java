@@ -94,8 +94,4 @@ public class MainActivity extends AppCompatActivity {
 //                break;
 //        }
 //    }
-<<<<<<< HEAD
-=======
-
->>>>>>> f02ecfb648df72efb199b8f2af43afe57e88d613
 }

@@ -31,12 +31,8 @@
         <activity android:name=".Activity.TurnMoneyActivity" />
         <activity android:name=".Activity.RegisterActivity" />
         <activity android:name=".Activity.BillActivity" />
-<<<<<<< HEAD
         <activity android:name=".Activity.PhonefareActivity" />
-=======
-        <activity android:name=".Activity.PhonefareActivity"></activity>
         <activity android:name=".Activity.LoginActivity"></activity>
->>>>>>> f02ecfb648df72efb199b8f2af43afe57e88d613
     </application>
 
 </manifest>

@@ -42,7 +42,7 @@ public class Setting_Activity extends AppCompatActivity {
                     startActivity(intent);
                     break;
                 case R.id.btn_logout:
-                    Intent intent1 = new Intent(Setting_Activity.this,RegisterActivity.class);
+                    Intent intent1 = new Intent(Setting_Activity.this,LoginActivity.class);
                     startActivity(intent1);
             }
         }
