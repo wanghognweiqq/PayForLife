@@ -87,6 +87,7 @@
             android:layout_centerHorizontal="true"
             android:layout_columnSpan="1"
             android:background="#46A3FF"
+            android:src="@mipmap/bank"
             />
 
         <Button
@@ -112,6 +113,7 @@
             android:layout_centerHorizontal="true"
             android:layout_columnSpan="1"
             android:background="#46A3FF"
+            android:src="@mipmap/money"
 
             />
 
