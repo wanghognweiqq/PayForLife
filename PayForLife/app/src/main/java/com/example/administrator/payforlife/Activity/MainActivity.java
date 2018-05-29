@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
             }
         }
     }
-<<<<<<< HEAD
+
 //    public void handleIntent (Intent intent){
 //        final String fragment = intent.getStringExtra("fragment");
 //        setResult(1);
@@ -94,7 +94,4 @@ public class MainActivity extends AppCompatActivity {
 //                break;
 //        }
 //    }
-=======
-
->>>>>>> 9e27b9a55640176ac13e9d6649fcadea0e17e061
 }

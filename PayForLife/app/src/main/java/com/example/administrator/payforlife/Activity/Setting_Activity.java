@@ -11,6 +11,7 @@ import com.example.administrator.payforlife.R;
 
 public class Setting_Activity extends AppCompatActivity {
     private Button btnSettingToHome;
+    private Button btnLogout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,10 +25,12 @@ public class Setting_Activity extends AppCompatActivity {
 
     private void setListener(OnclickedImpl listener) {
         btnSettingToHome.setOnClickListener(listener);
+        btnLogout.setOnClickListener(listener);
     }
 
     private void gitview() {
         btnSettingToHome = findViewById(R.id.btn_settingtoshome);
+        btnLogout = findViewById(R.id.btn_logout);
     }
 
     private class OnclickedImpl implements View.OnClickListener{
@@ -38,6 +41,9 @@ public class Setting_Activity extends AppCompatActivity {
                     Intent intent = new Intent(Setting_Activity.this, MainActivity.class);
                     startActivity(intent);
                     break;
+                case R.id.btn_logout:
+                    Intent intent1 = new Intent(Setting_Activity.this,RegisterActivity.class);
+                    startActivity(intent1);
             }
         }
     }
