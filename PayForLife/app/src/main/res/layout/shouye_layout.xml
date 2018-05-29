@@ -97,10 +97,5 @@
             android:background="@drawable/shape"
             />/>
     </LinearLayout>
-
-
-
-
-
-
+  
 </LinearLayout>
