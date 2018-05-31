@@ -36,7 +36,7 @@ public class Personal_propertyActivity extends AppCompatActivity {
     }
     public void phonefare(View view){
         Intent intent = new Intent();
-        intent.setClass(Personal_propertyActivity.this,PhonefareActivity.class);
+        intent.setClass(Personal_propertyActivity.this,Personal_propertyActivity.class);
         startActivity(intent);
     }
 }
